@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url("./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Kaushan Script;
+    src: url("./assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+header{
+    background: url(./assets/img/fond.jpg) no-repeat;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.5em;
+    font-family: Kaushan Script;
+}
+header p{
+    background: url(./assets/img/fond.jpg);
+    text-align: center;
+    color: white;
+    padding-block: 10px;
+}
+
+main {
+    font-family: Playfair Display;
+    line-height: 30px;
+}
+
+.title {
+    color: rgb(250 251 250);
+    font-size: 2em;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    text-decoration: none;
+    width: 13%;
+}
+
+li div {
+    text-align: center;
+}
+
+li svg{
+    width: 22%;
+    margin: auto;
+    margin-left: 42%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h2, h3{
+    text-align: center;
+    margin-block: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+.second{
+    margin-top: 30px;
+}
+thead{
+    font-family: Kaushan Script;
+    font-size: 1.6em;
+    color: white;
+    background-color: rgb(196 169 222);
+}
+td,
+th {
+    border: 1px solid rgb(226 226 226);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(242 242 242);
+}
+.reserver {
+    color: rgb(196 169 222) ;
+    text-align: center;
+}
+.date{
+    text-align: center;
+}
+form{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+fieldset{
+    border: 1px solid rgb(226 226 226);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+legend{
+    text-align: left;
+}
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(226 226 226);
+}
+label{
+    margin-left: 40px;
+}
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+
+  input[type=submit] {
+    width: 8%;
+    background-color: rgb(141 111 209);
+    color: white;
+    padding: 0.75% 0.2%;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+  }
+footer {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(141 111 209);
+    color: white;
+
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 4px;
+}
